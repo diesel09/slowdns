@@ -23,11 +23,11 @@ echo -e "\033[0;36m#===================================================#\033[m"
     echo -e "\033[0;36m[7]\033[m | Reiniciar SlowDNS"
     echo -e "\033[0;36m[8]\033[m | Parar SlowDNS"
     echo -e "\033[0;36m[9]\033[m | Remover SlowDNS"
-    echo -e "\033[0;36m[10]\033[m | Atualizar/Reinstalar"
+    echo -e "\033[0;36m[10]\033[m | Actualizar/Reinstalar"
     echo -e "\033[0;36m[11]\033[m | Remover Script"
-    echo -e "\033[0;36m[0]\033[m | SAIR"
+    echo -e "\033[0;36m[0]\033[m | SALIR"
     echo ""
-    echo -ne "\033[0;36mO que deseja fazer?:\0033[m " && read opcao
+    echo -ne "\033[0;36mSeleccione una Opcion:\0033[m " && read opcao
     case $opcao in
     1) Opcao1 ;;
     2) Opcao2 ;;
